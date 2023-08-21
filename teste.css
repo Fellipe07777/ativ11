@@ -1,0 +1,51 @@
+body {
+    font-family: 'input', serif;
+    color: #A5BE30;
+    background-color: #2B1A4E;
+}
+
+.quiz-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.questoes {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.questoes:hover {
+    background-color: #0191CD;
+}
+.options {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.options button {
+    margin-bottom: 5px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.options button.ativo {
+    font-family: 'input', serif;
+    background-color: #6E6385;
+}
+
+.options button:not(.ativo) {
+    background-color: #2B1A4E;
+    color: white;
+}
+
+.options button:not(.ativo):hover {
+    font-family: 'input', serif;
+    background-color: #6E6385;
+    color: black;
+}
+
+#cxVidas img {
+    margin: 5px;
+}
